@@ -32,13 +32,13 @@ body {
 .info_proyecto{
         text-align: center;
 }
-.botones li{
+.botones, .botoness li{
     list-style: none;
     display: inline; 
     margin-right: 10px; 
     font-size: small;
 }
-.botones a {
+.botones, .botoness a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #a04e86;
@@ -48,7 +48,7 @@ body {
     border-radius: 5px;
 }
 
-.botones a:hover {
+.botones, .botoness a:hover {
     background-color: #5e3a6c;
 }
 
@@ -95,3 +95,5 @@ input[type="button"].boton_calcular:hover {
     margin-left: 30%;
     margin-right: 15%;
 }
+
+.botoness{}

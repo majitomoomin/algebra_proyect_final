@@ -9,29 +9,23 @@ function calcular_crammer2x2() {
     let b1 = parseFloat(document.getElementById("a1=").value);
     let b2 = parseFloat(document.getElementById("a2=").value);
 
-    // Calcular el determinante
     let detA = a11 * a22 - a12 * a21;
 
-    // Verificar si el sistema tiene solución única
     if (detA === 0) {
         document.getElementById("calcular_2x2").value = "El determinante es cero, el sistema no tiene solución única.";
         return;
     }
 
-    // Calcular los determinantes para encontrar las variables
     let detX = b1 * a22 - b2 * a12;
     let detY = a11 * b2 - a21 * b1;
 
-    // Calcular las variables
     let x = detX / detA;
     let y = detY / detA;
 
-    // Mostrar el resultado en el textarea
     document.getElementById("calcular_2x2").value = "Total: x = " + x + ", y = " + y;
 }
 
 function calcular_gaussjordan2x2() {
-    // Obtener los valores de la matriz 2x2
     let a11 = parseFloat(document.getElementById("a11a").value);
     let a12 = parseFloat(document.getElementById("a12a").value);
     let a21 = parseFloat(document.getElementById("a21a").value);
@@ -118,7 +112,6 @@ function calcular_gaussjordan3x3() {
     let b2 = parseFloat(document.getElementById("b2=").value);
     let b3 = parseFloat(document.getElementById("b3=").value);
 
-    // Aplicar el método de Gauss-Jordan
     let detA = a11 * (a22 * a33 - a23 * a32) - a12 * (a21 * a33 - a23 * a31) + a13 * (a21 * a32 - a22 * a31);
 
     if (detA === 0) {

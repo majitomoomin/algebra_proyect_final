@@ -1,4 +1,4 @@
-//funcion para calcular ls determinantes
+//funcion para calcular las determinantes
 function Calcular_determinante(){
    var a11, a12, a13, a21, a22, a23, a31, a32, a33, total;
   //asignando valores
