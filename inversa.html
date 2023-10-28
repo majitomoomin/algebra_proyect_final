@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matriz inversa</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calcular_container">
+    <div class="info_proyecto1">
+        <h1>Calcular inversa</h1>
+    </div>
+    <div class="valores">
+        <br>Ingrese los valores<br>
+        <input type="text"  id ="a11">         <input type="text"  id ="a12"> <input type="text"  id ="a13">
+        <br>
+        <input type="text"  id ="a21">         <input type="text"  id ="a22"> <input type="text"  id ="a23">
+        <br>
+        <input type="text"  id ="a31">         <input type="text"  id ="a32"> <input type="text"  id ="a33">    
+        <br>
+        <div class="boton_calcular">
+        <input type="button" onClick="calcular_inversa()" value="Calcular">
+        </div><br><br>
+    <div id="total"><textarea name="" id="matriz_inversa" cols="30" rows="10">Total:</textarea></div> 
+    </div><br><br><br><br>
+    <div class="botones">
+    <a href="index.html">Volver al inicio</a>
+    </div>
+    </div>
+</body>
+</html>

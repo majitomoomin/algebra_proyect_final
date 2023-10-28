@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de ecuaciones</title>
+    <script src="appsistemas.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calcular_container">
+    <div class="info_proyecto2">
+        <h1>Sistemas de ecuaciones</h1>
+    </div>
+    <div class="valores_1">
+        <br>Resolver matriz 2x2 <br>
+        <input type="text"  id ="a11a">         <input type="text"  id ="a12a"> = <input type="text"  id ="a1=">
+        <br>
+        <input type="text"  id ="a21a">         <input type="text"  id ="a22a"> = <input type="text"  id ="a2=">
+        <br>
+    </div>
+    <br>
+    <div class="boton_calcular">
+        <input type="button" onClick="calcular_crammer2x2()" value="Calcular por crammer"><br>
+        <input type="button" onClick="calcular_gaussjordan2x2()" value="Calcular por gauss-jordan">
+    </div><br><br><br>
+    <div id="total"><textarea name="" id="calcular_2x2" cols="30" rows="10">Total: </textarea></div> 
+    <br><br><br><br></div>
+
+    <div class="valores_m2">
+        <br>Resolver matriz 3x3<br>
+        <input type="text"  id ="a11b"> <input type="text"  id ="a12b"> <input type="text"  id ="a13b"> = <input type="text"  id ="b1=">
+        <br>
+        <input type="text"  id ="a21b"> <input type="text"  id ="a22b"> <input type="text"  id ="a23b"> = <input type="text"  id ="b2=">
+        <br>
+        <input type="text"  id ="a31b"> <input type="text"  id ="a32b"> <input type="text"  id ="a33b"> = <input type="text"  id ="b3=">
+        <br><br><br><br>
+        <div class="boton_calcular">
+            <input type="button" onClick="calcular_crammer3x3()" value="Calcular por crammer"><br>
+            <input type="button" onClick="calcular_gaussjordan3x3()" value="Calcular por gauss-jordan">
+        </div><br><br><br>
+    <div id="total"><textarea name="" id="calcular_3x3" cols="30" rows="10">Total: </textarea></div> <br><br><br><br>
+    </div><br><br><br>
+    <div class="botones">
+    <a href="index.html">Volver al inicio</a></div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>

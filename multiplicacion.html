@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicación de Matrices</title>
+    <script src="appmultiplicacion.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calcular_container">
+    <div class="info_proyecto2">
+        <h1>Multiplicación de Matrices</h1>
+    </div>
+    <div class="valores">
+        <br>Ingrese los valores de la primera matriz<br>
+        <input type="text"  id ="a11a">         <input type="text"  id ="a12a"> <input type="text"  id ="a13a">
+        <br>
+        <input type="text"  id ="a21a">         <input type="text"  id ="a22a"> <input type="text"  id ="a23a">
+        <br>
+        <input type="text"  id ="a31a">         <input type="text"  id ="a32a"> <input type="text"  id ="a33a">    
+        <br>
+    </div>
+    <div class="valores_2mul">
+        <br>Ingrese los valores de la segunda matriz<br>
+        <input type="text"  id ="a11b">         <input type="text"  id ="a12b"> <input type="text"  id ="a13b">
+        <br>
+        <input type="text"  id ="a21b">         <input type="text"  id ="a22b"> <input type="text"  id ="a23b">
+        <br>
+        <input type="text"  id ="a31b">         <input type="text"  id ="a32b"> <input type="text"  id ="a33b">    
+        <br>
+        <div class="boton_calcular">
+        <input type="button" onClick="calcular_multiplicacion()" value="Calcular">
+        </div><br><br><br>
+    <div id="total"><textarea name="" id="calcular_multiplicacion" cols="30" rows="10">Total: </textarea></div> <br><br><br><br>
+    </div>
+    <div class="botones">
+    <a href="index.html">Volver al inicio</a></div>
+    </div>
+</body>
+</html>

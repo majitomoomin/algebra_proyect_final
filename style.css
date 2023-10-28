@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e4b0cd;
+    margin-top: 50px;
+    justify-content: center; 
+    font-family: 'Gabarito', sans-serif;
+}
+/*index css*/
+.botones{
+    align-items: center;
+}
+.info_proyecto{
+    background-color: #f1ffff;
+    width: auto;
+    height: 300px;
+}
+.text{
+    padding-top: 50px;
+    font-size: larger;
+}
+.menu_principal{
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 28%;
+    display: flex;
+    -ms-flex-align: center;
+}
+.info_proyecto{
+        text-align: center;
+}
+.botones li{
+    list-style: none;
+    display: inline; 
+    margin-right: 10px; 
+    font-size: small;
+}
+.botones a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a04e86;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #a04e86;
+    border-radius: 5px;
+}
+
+.botones a:hover {
+    background-color: #5e3a6c;
+}
+
+/*matriz inversa pagina css*/
+.calcular_container{
+    margin-left: 30%;
+    margin-right: 28%;
+}
+
+.boton_calcular {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a04e86;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #a04e86;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.boton_calcular:hover {
+    background-color: #5e3a6c;
+}
+
+input[type="button"].boton_calcular {
+    background-color: #a04e86;
+    color: #fff;
+    border: 1px solid #a04e86;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+
+input[type="button"].boton_calcular:hover {
+    background-color: #5e3a6c;
+}
+
+/*sistemas de ecuaciones pagina css*/
+.valores_m2{
+    margin-left: 30%;
+    margin-right: 15%;
+}
+
+.botones{
+    margin-left: 30%;
+    margin-right: 15%;
+}
