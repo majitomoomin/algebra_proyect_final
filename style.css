@@ -12,6 +12,7 @@ body {
 /*index css*/
 .botones{
     align-items: center;
+    text-decoration: none;
 }
 .info_proyecto{
     background-color: #f1ffff;
@@ -28,6 +29,7 @@ body {
     margin-right: 28%;
     display: flex;
     -ms-flex-align: center;
+    
 }
 .info_proyecto{
         text-align: center;
